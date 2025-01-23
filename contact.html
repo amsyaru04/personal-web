@@ -1,0 +1,52 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/06bcca22e8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/contact.css">
+  <title>Contact Me</title>
+  <style>
+    body {
+      background-image: url("picture/bg6.jpg");
+    }
+</style>
+</head>
+<body>
+  <nav>
+    <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+    <a href="about.html"><i class="fa-solid fa-user"></i> About</a>
+    <a href="skills.html"><i class="fa-solid fa-briefcase"></i> Skills</a>
+    <a href="gallery.html"><i class="fa-regular fa-image"></i> Gallery</a>
+    <a href="song.html"><i class="fa-solid fa-music"></i> Song</a>
+    <a href="contact.html"><i class="fa-solid fa-phone"></i> Contact</a>
+</nav>
+  <div class="container">
+    <h1>Contact Me</h1>
+    <p>If you have any questions or inquiries for me, feel free to get in touch!</p>
+
+    <div class="contact-info">
+      <a href="tel:+60109691727"><i class="fa-solid fa-phone"></i> Call: +6010-969 1727</a>
+      <a href="amsyarumair4@gmail.com"><i class="fa-solid fa-envelope"></i> Email: amsyarumair4@gmail.com</a>
+      <a href="https://www.instagram.com/amsyr.u/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram: @amsyr.u</a>
+      <a href="https://wa.me/60109691727" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp: +6010-969 1727</a>
+      <a href="https://www.facebook.com/amsyar.trm" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook: Amsyar Umair</a>
+    </div>
+
+    <form action="submit_form.php" method="POST" class="contact-form">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</body>
+<footer>
+  <p>&copy; 2024-2025 Amsyar Umair, All Rights Reserved.</p>
+</footer>
+</html>
